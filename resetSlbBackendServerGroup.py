@@ -17,7 +17,7 @@ VServerGroupId=args.g
 VServerGroupName=args.n
 jsonfile=args.f
 
-client = AcsClient('LTAI4Frg5i92SRmy6n6tvZXJ', '68oDPFLN64lafJTy9lIjYyK4RvaCgm', 'cn-shanghai')
+client = AcsClient('', '', 'cn-shanghai')
 
 request = SetVServerGroupAttributeRequest()
 request.set_accept_format('json')
